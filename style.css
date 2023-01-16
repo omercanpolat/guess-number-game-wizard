@@ -59,30 +59,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  /* header {
-    flex-direction: column;
-    text-align: center;
-  }
-  header button {
-    margin: 0.5rem;
-  }
-  header img {
-    width: 250px;
-  }
-  nav.hero {
-    flex-direction: column;
-  }
-  nav.hero section {
-    text-align: center;
-  }
-
-  main .card:nth-child(odd) {
-    flex-direction: column;
-  }
-  main .card:nth-child(even) {
-    flex-direction: column;
-  } */
-
   body {
     text-align: center;
     background-color: aqua;
