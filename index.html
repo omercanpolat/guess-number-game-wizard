@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUESS IT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Guess "The Number" Game</h1>
+        <h2 class="headh2">Enter your guess between 1-100...</h2>
+        <input
+          type="number"
+          name="number_enter"
+          id="number_enter"
+          class="number_enter"
+          placeholder="enter your number here..."
+        />
+        <button id="check" class="check">CHECK</button>
+      </div>
+
+      <div class="bottom">
+        <div class="imaj">
+          <!-- <img src="./spinner.gif" alt="Loading..." id="loading" class="loading" style="display: none"> -->
+
+          <h3 id="warning"></h3>
+          <br />
+        </div>
+        <h2>Number of attempts: <span id="attempt_count">0</span></h2>
+        <br />
+        <h3>Your attempts: <span id="attempt_list"></span></h3>
+      </div>
+    </div>
+    <script src="Apps.js"></script>
+  </body>
+</html>
