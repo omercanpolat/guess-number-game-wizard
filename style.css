@@ -11,18 +11,17 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  /* text-align: center; */
+  margin-top: 3rem;
   content: "";
 }
 .header {
+  font-size: large;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-items: center;
   align-items: center;
   width: 50rem;
-  /* margin: auto; */
-  /* margin-top: 4rem; */
 }
 .check {
   color: white;
@@ -47,11 +46,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* align-self: flex-end; */
-
   margin: auto;
-  width: 25rem;
+  width: 50rem;
   padding: 2rem;
+}
+#warning {
+  text-align: center;
+  width: 35rem;
+  font-size: 1.5rem;
 }
 
 .headh2 {

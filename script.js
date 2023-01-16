@@ -18,7 +18,7 @@ checkButton.addEventListener("click", begin);
 function begin() {
   if (numberEntered.value == luckyNumber) {
     //.value ile .HTML arası fark
-    warning.innerHTML = `BRAVOOO! YOU WON!.. The Lucky Number is ${luckyNumber}. Do You Want to Try Again?`;
+    warning.innerHTML = `BRAVOOO! YOU WON!.. <br/> The Lucky Number is ${luckyNumber}. Do You Want to Try Again?`;
     bingo();
   } else if (numberEntered.value < 1 || numberEntered.value > 100) {
     // alert("Please enter a number between 1-100");
