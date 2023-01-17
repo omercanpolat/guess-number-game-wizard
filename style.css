@@ -33,6 +33,7 @@
   border-radius: 10px;
 }
 .number_enter {
+  text-align: center;
   color: blue;
   margin: 1rem;
   height: 5rem;
@@ -40,8 +41,8 @@
   border: 3px solid darkslategray;
   border-radius: 10px;
   padding: 1rem;
-  font-size: 1.2rem;
-  font-weight: 900;
+  font-size: 3rem;
+  font-weight: 500;
 }
 .bottom {
   display: flex;
