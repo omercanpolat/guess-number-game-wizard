@@ -8,30 +8,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>Guess "The Number" Game</h1>
-        <h2 class="headh2">Enter your guess between 1-100...</h2>
-        <input
-          type="number"
-          name="number_enter"
-          id="number_enter"
-          class="number_enter"
-          placeholder="enter your number here..."
-        />
-        <button id="check" class="check">CHECK</button>
-      </div>
+    <div class="demo-wrap">
+      <div class="demo-content">
+        <div class="container">
+          <div class="header">
+            <h1>Guess "The Number" Game</h1>
+            <h2 class="headh2">Enter your guess between 1-100...</h2>
+            <input
+              type="number"
+              name="number_enter"
+              id="number_enter"
+              class="number_enter"
+              placeholder="enter your number here..."
+            />
+            <button id="check" class="check">CHECK</button>
+          </div>
 
-      <div class="bottom">
-        <div class="imaj">
-          <h3 id="warning"></h3>
-          <br />
+          <div class="bottom">
+            <div class="imaj">
+              <h3 id="warning"></h3>
+              <br />
+            </div>
+            <h2>Number of attempts: <span id="attempt_count">0</span></h2>
+            <br />
+            <h3>Your attempts: <span id="attempt_list"></span></h3>
+          </div>
         </div>
-        <h2>Number of attempts: <span id="attempt_count">0</span></h2>
-        <br />
-        <h3>Your attempts: <span id="attempt_list"></span></h3>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
